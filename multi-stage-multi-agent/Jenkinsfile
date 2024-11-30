@@ -6,7 +6,7 @@ pipeline {
         docker { image 'maven:3.8.1-adoptopenjdk-11' }
       }
       steps {
-        /run_hello_world.sh
+        sh './run_hello_world.sh'
 
       }
     }
